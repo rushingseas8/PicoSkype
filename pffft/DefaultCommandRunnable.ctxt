@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DefaultCommandRunnable()
+comment1.params=args
+comment1.target=DefaultCommandRunnable\ pass(java.lang.Object[])
+comment2.params=
+comment2.target=void\ run()
+numComments=3

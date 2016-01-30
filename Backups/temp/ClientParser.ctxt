@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=gui\ network
+comment0.target=ClientParser(ClientGUI,\ ClientNetwork)
+comment1.params=to
+comment1.target=void\ setName(java.lang.String)
+comment2.params=to
+comment2.target=void\ setFriendName(java.lang.String)
+comment3.params=s\ person
+comment3.target=void\ parse(java.lang.String,\ int)
+comment4.params=
+comment4.target=void\ run()
+comment5.params=
+comment5.target=void\ run()
+comment6.params=l
+comment6.target=void\ setClientLogger(ClientLogger)
+comment7.params=s
+comment7.target=void\ addText(java.lang.String)
+comment8.params=s\ c
+comment8.target=void\ addText(java.lang.String,\ java.awt.Color)
+numComments=9

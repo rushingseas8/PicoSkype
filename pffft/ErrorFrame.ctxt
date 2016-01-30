@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=e\ relative
+comment0.target=ErrorFrame(java.lang.Throwable,\ javax.swing.JFrame)
+comment1.params=w
+comment1.target=void\ windowClosing(java.awt.event.WindowEvent)
+comment2.params=
+comment2.target=void\ main()
+numComments=3

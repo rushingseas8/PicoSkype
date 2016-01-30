@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ClientGUI()
+comment1.params=
+comment1.target=void\ setupBindings()
+comment1.text=\n\ Set\ up\ the\ key\ bindings\ for\ all\ of\ the\ components\ of\ the\ GUI.\n\ A\ helper\ method\ used\ to\ reduce\ clutter\ in\ the\ instantiation\ method.\n
+comment2.params=c
+comment2.target=void\ init(Client)
+comment3.params=
+comment3.target=void\ main()
+numComments=4

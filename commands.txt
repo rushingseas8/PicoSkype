@@ -1,0 +1,5 @@
+//Write custom commands here. Syntax: 'name','action code'
+//Everything outside of quotes is a comment
+*test1*, *[]; prints \"Hello world!\"*, *null*, *logger.addText("Hello world!", Color.RED);*
+*test2*, *[]; throws a NPE*, *null*, *String s = null; logger.addText(s.toString());*
+*test3*, *[String]; echoes the input string*, *new Object[]{new String()}*, *logger.addText((String)args[0]);*

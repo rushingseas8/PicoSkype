@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AudioVisualiser()
+comment1.params=newArray
+comment1.target=void\ setArray(byte[])
+comment2.params=
+comment2.target=byte[]\ getArray()
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment4.params=
+comment4.target=void\ main()
+comment4.text=\n\ Displays\ an\ audiovisualiser\ with\ sample\ data.\n
+numComments=5

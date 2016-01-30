@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=url\ type
+comment0.target=YoutubePlayer(java.lang.String,\ int)
+comment0.text=\n\ A\ YoutubePlayer\ with\ a\ given\ URL\ and\ a\ type\ representing\ size.\n\ @param\ type\ A\ parameter\ for\ the\ size\ of\ the\ viewer.\n\ -1\ \=\ custom,\ 0\ \=\ audio\ only,\ 1\ \=\ 144p,\ 2\ \=\ 240p,\ 3\ \=\ 360p,\ 4\ \=\ 480p,\ 5\ \=\ 720p,\ 6\ \=\ 1080p\n
+comment1.params=url\ width\ height
+comment1.target=YoutubePlayer(java.lang.String,\ int,\ int)
+comment1.text=\n\ A\ YoutubePlayer\ with\ a\ given\ URL\ and\ width\ and\ height\ values.\n
+comment2.params=url\ width\ height\ type
+comment2.target=YoutubePlayer(java.lang.String,\ int,\ int,\ int)
+comment2.text=\n\ A\ YoutubePlayer\ with\ all\ of\ the\ parameters.\n\ Note\ that\ width\ and\ height\ are\ only\ used\ if\ type\ <\ 0\ ||\ type\ >\ 6.\n
+comment3.params=
+comment3.target=void\ run()
+comment4.params=
+comment4.target=void\ initFX()
+comment5.params=
+comment5.target=javafx.scene.Scene\ createScene()
+numComments=6

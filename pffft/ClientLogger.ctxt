@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ClientLogger()
+comment0.text=\n\ Creates\ a\ logger\ that\ uses\ the\ GUI's\ JTextPane\ to\ add\ text\ and\ components\ to.\n
+comment1.params=c
+comment1.target=void\ init(Client)
+comment1.text=\n\ Passes\ the\ gui's\ JTextPane\ to\ this\ class.\n
+comment2.params=s
+comment2.target=void\ addText(java.lang.String)
+comment2.text=\n\ Adds\ the\ a\ String\ (in\ the\ color\ Black)\ to\ the\ end\ of\ the\ main\ text\ pane.\ \n\ Please\ note\ that\ this\ does\ NOT\ append\ a\ newline\ to\ the\ end\ of\ the\ String.\n\ @param\ s\ The\ String\ to\ be\ added\n
+comment3.params=s\ c
+comment3.target=void\ addText(java.lang.String,\ java.awt.Color)
+comment3.text=\n\ Adds\ the\ String\ s,\ using\ the\ Color\ c,\ to\ the\ end\ of\ the\ main\ text\ pane.\n\ @param\ s\ The\ String\ to\ be\ added\n\ @param\ c\ The\ Color\ that\ the\ user\ wants\ this\ String\ to\ be\n
+comment4.params=s\ a
+comment4.target=void\ addText(java.lang.String,\ javax.swing.text.SimpleAttributeSet)
+comment4.text=\n\ Add\ the\ String\ s\ to\ the\ end\ of\ the\ main\ text\ pane,\ using\ the\ attributes\ from\ the\ set\ a.\n\ @param\ s\ The\ String\ to\ be\ added\n\ @param\ a\ The\ SimpleAttributeSet\ that\ the\ user\ wants\ the\ String\ to\ be\ added\ using.\n
+comment5.params=
+comment5.target=void\ run()
+comment6.params=c
+comment6.target=void\ addComponent(javax.swing.JComponent)
+comment6.text=\n\ Adds\ the\ JComponent\ 'c'\ to\ the\ main\ text\ pane.\ This\ component\ will\ be\ added\ to\ the\ end,\n\ determined\ by\ setting\ the\ caret\ position\ of\ the\ main\ JTextPane\ to\ the\ length\ of\ the\ \n\ JTextPane's\ styled\ document.\n\ @param\ c\ The\ JComponent\ to\ be\ added\n
+comment7.params=
+comment7.target=void\ run()
+numComments=8

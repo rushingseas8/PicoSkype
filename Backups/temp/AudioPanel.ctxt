@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=f
+comment0.target=AudioPanel(java.io.File)
+comment1.params=a
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ run()
+comment4.params=m
+comment4.target=void\ mouseDragged(java.awt.event.MouseEvent)
+comment5.params=m
+comment5.target=void\ mousePressed(java.awt.event.MouseEvent)
+comment6.params=c
+comment6.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+numComments=7

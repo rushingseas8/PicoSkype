@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AudioGUI()
+comment1.params=c
+comment1.target=void\ componentResized(java.awt.event.ComponentEvent)
+comment2.params=a
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=a
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=a
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=c
+comment5.target=void\ init(Client)
+comment5.text=\n\ Initialise\ this\ AudioGUI\ object\ with\ a\ Client\ reference.\n
+comment6.params=g
+comment6.target=void\ paintComponent(java.awt.Graphics)
+comment7.params=to
+comment7.target=void\ setGuiSize(int)
+comment7.text=\n\ Changes\ the\ size\ of\ the\ GUI\ elements\ to\ the\ given\ size,\ in\ pixels.\n\ The\ default\ value\ is\ 32.\n
+comment8.params=
+comment8.target=void\ main()
+comment9.params=c
+comment9.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+numComments=10

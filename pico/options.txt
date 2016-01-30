@@ -1,0 +1,6 @@
+embed images
+true
+embed youtube player
+true
+embed audio
+true

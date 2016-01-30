@@ -1,0 +1,8 @@
+//Write custom commands here. Syntax: 'name of command', 'description', 'parameters', 'action code'
+//Everything outside of quotes is a comment
+//Available variables: 'gui', 'network', 'parser', 'logger', 'audioGUI', 'audioNetwork', 'FileLoader' (static)
+
+*test*
+*test*
+*new Object[1]*
+*logger.addText("You said: " + args[0], Color.PINK);*

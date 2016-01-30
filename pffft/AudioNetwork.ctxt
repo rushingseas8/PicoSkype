@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=ip\ port
+comment0.target=AudioNetwork(java.lang.String,\ int)
+comment0.text=\n\ Establish\ an\ audio\ connection\ on\ the\ given\ IP\ and\ port.\n\ Default\ port\ is\ the\ text\ port\ plus\ one.\n
+comment1.params=c
+comment1.target=void\ init(Client)
+comment2.params=
+comment2.target=void\ begin()
+comment3.params=
+comment3.target=void\ tryConnect()
+comment3.text=\n\ Attempts\ to\ establish\ a\ connection\ with\ the\ given\ IP\ and\ port.\n\ Analogous\ to\ tryConnectServer()\ in\ ClientNetwork.\n
+comment4.params=
+comment4.target=void\ tryReconnect()
+comment4.text=\n\ Reconnects\ us\ to\ the\ partner\ if\ at\ all\ possible.\n\ Analogous\ to\ attemptReconnect()\ in\ ClientNetwork.\n
+comment5.params=to
+comment5.target=void\ setMute(boolean)
+comment5.text=\n\ Toggles\ the\ state\ of\ the\ mute\ variable.\n
+comment6.params=
+comment6.target=void\ send()
+comment7.params=
+comment7.target=void\ read()
+comment8.params=
+comment8.target=void\ safelyDestroy()
+comment9.params=
+comment9.target=void\ main()
+numComments=10

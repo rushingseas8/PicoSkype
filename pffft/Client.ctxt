@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Client()
+comment0.text=\n\ Creates\ a\ Client\ with\ default\ parameters\ for\ name,\ IP,\ and\ port;\ \n\ The\ default\ option\ parameters\ are\ used.\ This\ is\ used\ for\ developer\ testing\ and\ debugging.\n
+comment1.params=nickname\ ip\ port\ parameters
+comment1.target=Client(java.lang.String,\ java.lang.String,\ int,\ boolean[])
+comment1.text=\n\ Creates\ a\ new\ Client.\n\ @param\ nickname\ The\ local\ name\ you\ wish\ to\ be\ called\n\ @param\ ip\ The\ initial\ IP\ to\ connect\ to\n\ @param\ port\ The\ port\ that\ the\ program\ will\ use\n\ @param\ parameters\ Boolean\ parameters\ used\ by\ Runner\ for\ initial\ options.\n
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ run()
+comment4.params=
+comment4.target=void\ run()
+comment5.params=
+comment5.target=void\ main()
+comment5.text=\n\ Creates\ a\ new\ Client\ with\ default\ parameters.\n
+comment6.params=
+comment6.target=void\ loadOptions()
+numComments=7

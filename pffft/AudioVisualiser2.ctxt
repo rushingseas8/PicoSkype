@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AudioVisualiser2()
+comment0.text=\n\ Creates\ a\ new\ visualiser\ with\ default\ parameters.\n\ @param\ yScale\ is\ used\ by\ the\ program\ and\ sets\ the\ amplitude\ (default\ 1)\n\ @param\ xScale\ defines\ the\ period\ as\ 2pi/xScale.\ (default\ 50)\n\ @param\ tScale\ the\ speed\ at\ which\ we\ move\ across\ the\ screen\ (default\ 15)\n\ @param\ accuracy\ defines\ the\ amount\ of\ samples\ to\ take\ as\ 1/accuracy\ (default\ 8)\n\ @param\ boost\ how\ much\ we\ boost\ the\ signal\ by;\ multiplies\ yScale\ by\ boost\ (default\ 6)\n\ @param\ smooth\ whether\ or\ not\ we\ smooth\ the\ result\ (default\ true)\n\ @param\ adapt\ whether\ or\ not\ we\ adapt\ the\ value\ of\ boost\ dynamically\ (default\ false)\n
+comment1.params=newArray
+comment1.target=void\ setArray(byte[])
+comment1.text=\n\ Set\ the\ array\ of\ bytes\ to\ render.\n\ This\ automatically\ updates\ the\ variables\ needed\ and\ draws\ the\ new\ array.\n
+comment2.params=
+comment2.target=byte[]\ getArray()
+comment2.text=\n\ Returns\ the\ array\ we're\ currently\ drawing.\n
+comment3.params=g
+comment3.target=void\ paint(java.awt.Graphics)
+comment4.params=
+comment4.target=void\ main()
+comment4.text=\n\ Displays\ an\ audiovisualiser\ with\ sample\ (random)\ data.\n
+numComments=5

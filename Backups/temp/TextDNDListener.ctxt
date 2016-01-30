@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=text\ network
+comment0.target=TextDNDListener(javax.swing.JTextPane,\ ClientNetwork)
+comment1.params=d
+comment1.target=void\ processDrag(java.awt.dnd.DropTargetDragEvent)
+comment2.params=d
+comment2.target=void\ drop(java.awt.dnd.DropTargetDropEvent)
+comment3.params=d
+comment3.target=void\ dragEnter(java.awt.dnd.DropTargetDragEvent)
+comment4.params=d
+comment4.target=void\ dragOver(java.awt.dnd.DropTargetDragEvent)
+comment5.params=d
+comment5.target=void\ dragExit(java.awt.dnd.DropTargetEvent)
+comment6.params=d
+comment6.target=void\ dropActionChanged(java.awt.dnd.DropTargetDragEvent)
+numComments=7

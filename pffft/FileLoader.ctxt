@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FileLoader()
+comment1.params=uri
+comment1.target=java.io.File\ load(java.lang.String)
+comment1.text=\n\ Loads\ a\ file\ from\ the\ jar\ or\ local\ directory\ and\ returns\ it.\n\ <p><p>\n\ This\ method\ will\ NOT\ create\ a\ new\ file\ if\ it\ does\ not\ exist,\ it\ only\ tries\ to\ load\ it\ in.\n\ Please\ be\ sure\ to\ check\ file.exists(),\ file.isDirectory(),\ and\ so\ on\ before\ using\ the\ returned\ file.\n\ <p><p>\n\ The\ format\ of\ the\ uri\ string\ uses\ forward\ slashes\ for\ convenience;\ On\ Microsoft\ Windows,\ this\n\ is\ automatically\ converted\ to\ a\ backslash\ when\ trying\ to\ load\ in\ the\ file.\n\ <p><p>\n\ This\ method\ can\ find\ files\ both\ inside\ and\ outside\ the\ JAR\ file;\ to\ access\ external\ files,\n\ use\ "~/"\ at\ the\ start\ of\ your\ String,\ and\ the\ search\ will\ start\ from\ the\ directory\ the\ \n\ JAR\ file\ is\ located\ in.\ This\ is\ to\ simplify\ finding\ out\ every\ time.\n\ An\ example\ of\ this\ usage\ is\ "~/pico/commands/commands.txt".\n\ <p><p>\n\ To\ find\ Files\ within\ the\ JAR,\ do\ NOT\ use\ "~/"\ at\ the\ start,\ use\ "/"\ or\ start\ writing\ the\n\ URI\ directly.\ \n\ An\ example\ of\ this\ usage\ is\ "pico/images/background.png".\n\ <p><p>\n\ Internally,\ this\ method\ uses\ System.getProperty("user.dir")\ to\ find\ the\ local\ directory,\ and\n\ searches\ within\ the\ jar\ file\ by\ using\ local\ paths.\ The\ forward\ slashes\ are\ replaced\ with\n\ the\ given\ platform's\ default\ file\ separator.\n\ <p><p>\n\ \n\ @param\ uri\ A\ String\ representing\ a\ URI.\ Searches\ in\ the\ JAR\ by\ default;\ Start\ with\n\ \ "~/"\ to\ look\ externally\ in\ the\ same\ directory\ as\ the\ JAR.\n\ \ \n\ @return\ The\ file\ that\ was\ loaded\ in,\ or\ null\ if\ it\ does\ not\ exist.\n
+comment2.params=uri
+comment2.target=java.io.File\ makeDir(java.lang.String)
+comment2.text=\n\ If\ the\ directory\ at\ the\ given\ uri\ does\ not\ exist,\ create\ a\ directory\ there.\n\ \n\ @return\ The\ newly\ made\ directory\ at\ the\ location\ of\ URI,\ null\ if\ the\ directory\ was\ not\ made.\n
+comment3.params=uri
+comment3.target=java.io.File\ makeFile(java.lang.String)
+comment3.text=\n\ Try\ to\ create\ a\ file\ at\ the\ given\ uri\ if\ it\ does\ not\ already\ exist.\n\ \n\ @return\ The\ file\ at\ the\ given\ URI\ if\ it\ either\ exists\ or\ was\ created;\ null\ otherwise.\n
+comment4.params=uri
+comment4.target=java.lang.String\ parse(java.lang.String)
+numComments=5

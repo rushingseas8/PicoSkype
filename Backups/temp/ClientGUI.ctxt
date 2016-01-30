@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ClientGUI()
+comment1.params=
+comment1.target=void\ setupBindings()
+comment1.text=\n\ Set\ up\ the\ key\ bindings\ for\ all\ of\ the\ components\ of\ the\ GUI.\n\ A\ helper\ method\ used\ to\ reduce\ clutter\ in\ the\ instantiation\ method.\n
+comment2.params=
+comment2.target=javax.swing.JTextPane\ getTextPane()
+comment2.text=\n\ Used\ by\ NetworkClient.\n
+comment3.params=
+comment3.target=void\ main()
+comment4.params=c
+comment4.target=void\ setClientLogger(ClientLogger)
+comment5.params=c
+comment5.target=void\ setClientParser(ClientParser)
+numComments=6

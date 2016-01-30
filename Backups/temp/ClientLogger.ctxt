@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=t
+comment0.target=ClientLogger(javax.swing.JTextPane)
+comment1.params=s
+comment1.target=void\ addText(java.lang.String)
+comment1.text=\n\ Adds\ the\ String\ s\ (with\ a\ black\ color)\ to\ the\ end\ of\ the\ main\ text\ pane.\n
+comment2.params=s\ c
+comment2.target=void\ addText(java.lang.String,\ java.awt.Color)
+comment2.text=\n\ Adds\ the\ String\ s,\ using\ the\ Color\ c,\ to\ the\ end\ of\ the\ main\ text\ pane.\n
+comment3.params=s\ a
+comment3.target=void\ addText(java.lang.String,\ javax.swing.text.SimpleAttributeSet)
+comment3.text=\n\ Add\ the\ String\ s\ to\ the\ end\ of\ the\ main\ text\ pane,\ using\ the\ attributes\ from\ the\ set\ a.\n
+comment4.params=
+comment4.target=void\ run()
+comment5.params=c
+comment5.target=void\ addComponent(javax.swing.JComponent)
+comment5.text=\n\ Adds\ the\ JComponent\ 'c'\ to\ the\ main\ text\ pane.\n
+numComments=6
